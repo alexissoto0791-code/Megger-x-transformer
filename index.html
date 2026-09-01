@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <title>Evaluación Megger - Transformadores</title>
+    <meta name="description" content="Diagnóstico técnico y evaluación del estado de aislamiento dieléctrico en transformadores mediante pruebas Megger en frío." />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Evaluación Megger - Transformadores" />
+    <meta property="og:description" content="Diagnóstico técnico y evaluación del estado de aislamiento dieléctrico en transformadores mediante pruebas Megger en frío." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f0f7ff',
+                100: '#e0effe',
+                200: '#bae0fd',
+                300: '#7cc7fb',
+                400: '#38a9f6',
+                500: '#0e8ce6',
+                600: '#026fc4',
+                700: '#03589f',
+                800: '#074b83',
+                900: '#0c3f6e',
+                950: '#082849',
+              }
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+              mono: ['"JetBrains Mono"', 'monospace'],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      /* Hide number input spinners */
+      input[type=number]::-webkit-inner-spin-button, 
+      input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+      }
+      input[type=number] {
+        -moz-appearance: textfield;
+      }
+      
+      @media print {
+        .no-print {
+          display: none !important;
+        }
+        .print-only {
+          display: block !important;
+        }
+        body {
+          background-color: white !important;
+          color: black !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-900/5 text-slate-800 antialiased font-sans min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

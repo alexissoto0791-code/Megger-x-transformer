@@ -1,0 +1,8 @@
+{
+  "name": "Evaluación Megger - Transformadores",
+  "description": "Diagnóstico técnico y evaluación del estado de aislamiento dieléctrico en transformadores mediante pruebas Megger en frío.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
